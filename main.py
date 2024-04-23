@@ -4,6 +4,7 @@
 
 import os
 from jogo_da_advinhação import*
+from joga_da_velha import*
 os.system("cls")
 
 pessoa = int(input("Qual a sua idade? "))
@@ -23,3 +24,6 @@ jogo_escolhido = int(input("Em qual dos jogos deseja jogar? "))
 
 if jogo_escolhido == 1: #JOGO DA ADVINHAÇÃO
     jogo_advinhacao()
+
+if jogo_escolhido == 3: 
+    jogo_velha()
