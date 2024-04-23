@@ -1,6 +1,11 @@
 #### JOGOTECA ####
 # DESENVOLVIDO POR ARTHUR RAMPANI #
 
+
+import os
+from jogo_da_advinhação import*
+os.system("cls")
+
 pessoa = int(input("Qual a sua idade? "))
 if pessoa >=18:
     print("Você está liberado para jogar")
@@ -14,3 +19,7 @@ if pessoa >=18:
     print("*****************************")
 else:
     print("Sai daqui muleke")
+jogo_escolhido = int(input("Em qual dos jogos deseja jogar? "))
+
+if jogo_escolhido == 1: #JOGO DA ADVINHAÇÃO
+    jogo_advinhacao()
