@@ -39,3 +39,5 @@ def jogo_advinhacao():
             break
         if chute < numero_aleatorio:
             print("aumente mais")
+        if chute > numero_aleatorio:
+            print("diminua")
