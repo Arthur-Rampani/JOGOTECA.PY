@@ -4,7 +4,7 @@
 
 import os
 from jogo_da_advinhação import*
-from 
+from jogo_forca import*
 from joga_da_velha import*
 from Tabuada_extreme import*
 os.system("cls")
@@ -27,8 +27,8 @@ jogo_escolhido = int(input("Em qual dos jogos deseja jogar? "))
 if jogo_escolhido == 1: #JOGO DA ADVINHAÇÃO
     jogo_advinhacao()
 
-#if jogo_escolhido == 2:
-
+if jogo_escolhido == 2:
+    forca()
 
 if jogo_escolhido == 3: 
     jogo_velha()
