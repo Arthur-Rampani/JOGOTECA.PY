@@ -5,6 +5,7 @@
 import os
 from jogo_da_advinhação import*
 from joga_da_velha import*
+from Tabuada_extreme import*
 os.system("cls")
 
 pessoa = int(input("Qual a sua idade? "))
@@ -27,3 +28,6 @@ if jogo_escolhido == 1: #JOGO DA ADVINHAÇÃO
 
 if jogo_escolhido == 3: 
     jogo_velha()
+
+if jogo_escolhido == 4:
+    tabuada_extrema()
