@@ -22,16 +22,16 @@ def jogo_velha():
         #Fazendo o X ganhar
         if marcacoes[0] == 'X' and marcacoes[1] == marcacoes[2] == 'X':
             print("O X ganhou!")
-            exit()
+            break
         elif marcacoes[0] == 'X' and marcacoes[4] == 'X' and marcacoes[8] == 'X':
             print("O X ganhou!")
-            exit()
+            break
         if marcacoes[0] == 'X' and marcacoes[3] == 'X' and marcacoes[6] == 'X':
             print("O X ganhou!")
-            exit()
+            break
         if marcacoes[1] == 'X' and marcacoes[4] == 'X' and marcacoes [7] == 'X':
             print("O X ganhou!")
-            exit()
+            break
         if marcacoes[2] == 'X' and marcacoes[5] == 'X' and marcacoes[8] == 'X':
             print("O X ganhou!")
         elif marcacoes[2] == 'X' and marcacoes[4] == 'X' and marcacoes[6] == 'X':
@@ -43,32 +43,32 @@ def jogo_velha():
         #Fazendo o O ganhar
         if marcacoes[0] == 'O' and marcacoes[1] == marcacoes[2] == 'O':
             print("O O ganhou!")
-            exit()
+            break
         elif marcacoes[0] == 'O' and marcacoes[4] == 'O' and marcacoes[8] == 'O':
             print("O O ganhou!")
-            exit()
+            break
         if marcacoes[0] == 'O' and marcacoes[3] == 'O' and marcacoes[6] == 'O':
             print("O O ganhou!")
-            exit()
+            break
         if marcacoes[1] == 'O' and marcacoes[4] == 'O' and marcacoes [7] == 'O':
             print("O O ganhou!")
-            exit()
+            break
         if marcacoes[2] == 'O' and marcacoes[5] == 'O' and marcacoes[8] == 'O':
             print("O O ganhou!")
-            exit()
+            break
         elif marcacoes[2] == 'O' and marcacoes[4] == 'O' and marcacoes[6] == 'O':
             print("O O ganhou!")
-            exit()
+            break
         if marcacoes[3] == 'O' and marcacoes[4] == 'O' and marcacoes[5] == 'O':
             print("O O ganhou!")
-            exit()
+            break
         if marcacoes[6] == 'O' and marcacoes[7] == 'O' and marcacoes[8] == 'O':
             print("O O ganhou!")
-            exit()
+            break
         contador = contador + 1
         if contador == 9:
             print("DEU VELHA!")
-            exit()
+            break
         #Alternei o jogador
         if jogador == "X":
             jogador = "O"
