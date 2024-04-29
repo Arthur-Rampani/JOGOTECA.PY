@@ -17,3 +17,30 @@ if numero_escolhido == 2:
     numero_escolhido = "PAPEL"
 if numero_escolhido == 3:
     numero_escolhido = "TESOURA"
+if numero_do_pc == "PEDRA" and numero_escolhido == "PEDRA":
+    print(f"o computador escolheu {numero_do_pc} e você escolheu {numero_escolhido}")
+    print("EMPATADO!")
+if numero_do_pc == "PEDRA" and numero_escolhido == "PAPEL":
+    print(f"o computador escolheu {numero_do_pc} e você escolheu {numero_escolhido}")
+    print("VOCÊ GANHOU!")
+if numero_do_pc == "PAPEL" and numero_escolhido == "PEDRA":
+    print(f"o computador escolheu {numero_do_pc} e você escolheu {numero_escolhido}")
+    print("O COMPUTADOR GANHOU")
+if numero_do_pc == "PEDRA" and numero_escolhido == "TESOURA":
+    print(f"o computador escolheu {numero_do_pc} e você escolheu {numero_escolhido}")
+    print("O COMPUTADOR GANHOU!")
+if numero_do_pc == "TESOURA" and numero_escolhido == "PEDRA":
+    print(f"o computador escolheu {numero_do_pc} e você escolheu {numero_escolhido}")
+    print("VOCÊ GANHOU")
+if numero_do_pc == "PAPEL" and numero_escolhido == "TESOURA":
+    print(f"o computador escolheu {numero_do_pc} e você escolheu {numero_escolhido}")
+    print("VOCÊ GANHOU!")
+if numero_do_pc == "TESOURA" and numero_escolhido == "PAPEL":
+    print(f"o computador escolheu {numero_do_pc} e você escolheu {numero_escolhido}")
+    print("O COMPUTADOR GANHOU")
+if numero_do_pc == "PAPEL" and numero_escolhido == "PAPEL":
+    print(f"o computador escolheu {numero_do_pc} e você escolheu {numero_escolhido}")
+    print("EMPATADO")
+if numero_do_pc == "TESOURA" and numero_escolhido == "TESOURA":
+    print(f"o computador escolheu {numero_do_pc} e você escolheu {numero_escolhido}")
+    print("EMPATADO")
