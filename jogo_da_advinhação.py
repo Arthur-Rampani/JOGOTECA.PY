@@ -28,7 +28,7 @@ def jogo_advinhacao():
     while True:
         tentativas = tentativas + 1
         if tentativas == 5:
-            print("VOÇÊ PERDEU")
+            print("VOCÊ PERDEU")
             break
         chute = int(input("qual seu chute? "))
         if chute > numero_max:
