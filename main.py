@@ -6,7 +6,8 @@ import os
 from jogo_da_advinhação import*
 from jogo_forca import*
 from joga_da_velha import*
-from Tabuada_extreme import*
+from TabuadaExtreme import*
+from pedra_papel_tesoura import*
 os.system("cls")
 
 pessoa = int(input("Qual a sua idade? "))
@@ -19,6 +20,7 @@ if pessoa >=18:
     print("*   2-  JOGO DA FORCA       *")
     print("*   3-  JOGO DA VELHA       *")
     print("*   4- TABUADA EXTREME      *")
+    print("*   5-    JOKENPO           *")
     print("*****************************")
 else:
     print("Sai daqui muleke")
@@ -34,4 +36,7 @@ if jogo_escolhido == 3:
     jogo_velha()
 
 if jogo_escolhido == 4:
-    tabuada_extrema()
+    tabuada()
+
+if jogo_escolhido == 5:
+    pedra_papel_tesoura()
